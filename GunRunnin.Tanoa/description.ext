@@ -1,0 +1,31 @@
+author = "Andrew Spicher";
+
+//Class that controls music soundtracks
+class CfgMusic
+{
+    tracks[]={};
+
+    class Track01
+    {
+        name = "";
+        sound[] = {"\sounds\sneakTheme.ogg", db+8, 1.0};
+    };
+};
+
+//Class that controls sound effects
+class CfgSounds
+{
+  sounds[]={};
+
+  class radio
+    {
+      name = "";
+      sound[] = {"\sounds\reggae.ogg", db+10, 1.0};
+    }
+
+  class surfRadio
+    {
+      name = "";
+      sound[] = {"\sounds\surfRadio.ogg", db+10, 1.0};
+    }
+}
